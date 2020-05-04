@@ -1,5 +1,5 @@
 %%
-signal =(ScopeData.signals(3).values);
+signal =(ScopeData.signals(2).values);
 N = length(signal);
 fs = 1000; % 1000 samples per second
 fnyquist = fs/2; %Nyquist frequency
