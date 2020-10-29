@@ -17,7 +17,7 @@ plot(tetha_l);
 %%
 
 %fault model functions u(t)+beta*dirac(t)
-beta=1;             %fault indicator
+beta=0.5;             %fault indicator
 u=heaviside(t);
 d=(t==t_0);
 
